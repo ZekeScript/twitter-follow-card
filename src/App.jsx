@@ -20,7 +20,7 @@ const users = [
 ]
 
 
-export function App () {
+export function App() {
   return (
     <section className='App'>
       {users.map(({ userName, name, isFollowing }) => (
